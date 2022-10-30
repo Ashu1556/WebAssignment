@@ -1,1 +1,65 @@
 /* start your css here */
+.colors{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.colors1{
+    display: flex;
+    flex-direction: row;
+    flex:0.3;
+
+}
+.colors12{
+    flex:0.2;
+    border-right: 2px solid black;
+
+}
+.colors13{
+    flex:0.008;
+    border-right: 2px solid black;
+}
+.colors145{
+    background-color: hsla(0, 100%, 50%, 0.618);
+}
+.colors14{
+    flex:0.2;
+    border-left: 2px solid black;
+    
+    
+}
+.colors15{
+    flex:0.025;
+
+}
+.colors121{
+    background-color: red;
+}
+.colors16{
+    flex:0.2;
+    
+}
+.colors122{
+    background-color: rgb(13, 226, 155);
+}
+.colors155{
+    background-color: rgba(13, 226, 155, 0.14);
+}
+.colors3{
+    display: flex;
+    flex-direction: row;
+    flex:0.3;
+}
+.colors2{
+    display: flex;
+    flex-direction: row;
+    flex:0.3;
+}
+.colors125{
+    background-color: rgb(107, 107, 241);
+
+}
+.colors165{
+    background-color: rgba(107, 107, 241, 0.307);
+}
