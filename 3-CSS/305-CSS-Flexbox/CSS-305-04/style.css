@@ -1,1 +1,56 @@
 /* start your styling here  */
+.flex{
+    display:flex;
+    flex-direction: row;
+    height: 75px;
+    background-color: blue;
+    cursor:pointer;
+}
+.flex1{
+    flex:0.1;
+    margin-left: 300px;
+   
+}
+.flex2{
+    margin-top: 25px;
+    flex:0.4;
+}
+.flex3{
+    margin-top: 25px;
+    display:flex;
+    flex:0.1;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 25px;
+    border: 1px solid white;
+    width: 70%;
+    margin-left: -4rem;
+}
+.flex4{
+    margin-top:12px;
+    flex:0.1;
+    margin-left: 10px;
+}
+.flex5{
+    margin-top: 25px;
+    flex:0.1;
+}
+.flex6{
+    margin-top: 28px;
+    flex:0.1;
+    color:white;
+    margin-left: -2rem;
+}
+.flex11{
+    display: flex;
+    flex-direction: row;
+}
+.flex121{
+    flex:0.1;
+    margin-left: 20px;
+    cursor:pointer;
+}
+
+  
+  
