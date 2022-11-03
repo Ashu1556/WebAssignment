@@ -1,1 +1,103 @@
 /* start your styling here  */
+.flex{
+    margin:50px;
+    width:70vw;
+    height:110vh;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    background-color: rgb(226, 247, 237);
+    
+    
+}
+.flex1{
+    width:20%;
+    height:98%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex:0.3;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgb(195, 245, 221);
+   
+}
+.flex11{
+    flex:0.1;
+    margin-top: 40px;
+    cursor:pointer;  
+}
+.flex12{
+    flex:0.1;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+.flex121{
+    width:90%;
+    height:100%;
+    display:flex;
+    flex-direction: row;
+    border-radius: 10px;
+    flex:0.4;
+    background-color: rgb(180, 247, 224);
+    cursor: pointer;
+}
+.flex122{
+    margin:10px;
+    flex:0.4;
+    font-size:20px;
+    color:white;
+}
+.flex123{
+    margin:15px;
+    flex:0.6;
+}
+.flex2{
+    display:flex;
+    flex-direction: column;
+    flex:0.7;
+    margin: 80px;
+
+}
+.flex21{
+    
+    flex:0.1;
+    cursor: pointer;
+}
+.flex22{
+    margin-top: 60px;
+    display:flex;
+    flex-direction: row;
+    flex:0.3;
+    height:100%;
+    width:100%;
+    border-radius: 10px;
+    background-color:rgb(241, 255, 250); ;
+    cursor: pointer;
+}
+.flex212{
+    flex:0.35;
+    margin:20px;
+}
+.flex222{
+    flex:0.35;
+
+}
+.flex223{
+    flex:0.35;
+    display: flex;
+    justify-content: flex-end;
+    margin:20px;
+}
+.flex23{
+    margin-top: 10px;
+    display:flex;
+    flex-direction: row;
+    flex:0.3;
+    height:100%;
+    width:100%;
+    border-radius: 10px;
+    background-color:rgb(241, 255, 250);
+    cursor: pointer;
+}
