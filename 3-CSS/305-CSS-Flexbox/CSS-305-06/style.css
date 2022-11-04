@@ -1,1 +1,51 @@
 /* start your styling here  */
+.flex{
+    display:flex;
+    flex-direction: column;
+}
+.flex1{
+    margin:10px;
+    display: flex;
+    flex-direction: row;
+    flex:0.1;
+}
+.flex11{
+    flex:0.1;
+    margin-left:200px;
+}
+.flex12{
+    flex:0.1;
+    margin-left: 500px;
+}
+.flex13{
+    flex:0.1;
+    margin-left: 10px;
+}
+.flex14{
+    flex:0.1;
+    height:50px;
+    border-left: 1px solid;
+}
+.flex15{
+    flex:0.1;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    flex:0.8;
+}
+.row1{
+    flex:0.4;
+    height:100%;
+    width:100%;
+    margin:100px;
+    margin-left: 200px;
+    
+}
+.row2{
+    flex:0.6;
+    height:100%;
+    width: 100%;
+    margin-left: 100px;
+    
+}
