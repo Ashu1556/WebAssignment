@@ -1,51 +1,182 @@
-/* start your styling here  */
-.flex{
-    display:flex;
-    flex-direction: column;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.flex1{
-    margin:10px;
+
+img {
+    width: 160px;
+    height: 90px;
+}
+
+.header {
     display: flex;
-    flex-direction: row;
-    flex:0.1;
+    width: 80%;
+    height: 6rem;
+    gap: 480px;
+    margin-left: 20%;
+    align-items: center;
 }
-.flex11{
-    flex:0.1;
-    margin-left:200px;
+
+.nav-bar {
+    display: flex;
+    gap: 25px;
 }
-.flex12{
-    flex:0.1;
-    margin-left: 500px;
+
+.join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 }
-.flex13{
-    flex:0.1;
+
+svg {
+    color: #6a6a6a;
+    height: 30px;
+    width: 35px;
     margin-left: 10px;
 }
-.flex14{
-    flex:0.1;
-    height:50px;
-    border-left: 1px solid;
+
+.lazy-loaded:hover {
+    color: black;
 }
-.flex15{
-    flex:0.1;
+
+.nav p:hover {
+    color: black;
 }
-.row{
-    display:flex;
-    flex-direction: row;
-    flex:0.8;
-}
-.row1{
-    flex:0.4;
-    height:100%;
-    width:100%;
-    margin:100px;
-    margin-left: 200px;
-    
-}
-.row2{
-    flex:0.6;
-    height:100%;
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     width: 100%;
-    margin-left: 100px;
-    
+}
+
+.nav,
+.join p {
+    color: #6a6a6a;
+}
+
+button {
+    height: 3rem;
+    width: 6rem;
+    border-radius: 24px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0a66ce;
+    border: 1px solid #0a66ce;
+
+}
+
+.join-button {
+    height: 3.2rem;
+    width: 6.5rem;
+    border-radius: 30px;
+    background-color: white;
+    font-size: large;
+    font-weight: 600;
+    color: #0a66ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-button:hover,
+button:hover {
+    background-color: gainsboro;
+}
+
+.hr hr {
+    width: 170px;
+    height: 1px;
+}
+
+.hr {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.body-container {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin-left: 20%;
+    align-items: center;
+    gap: 70px;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-container h1 {
+    width: 600px;
+    color: #8f5849;
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.text-container input {
+    height: 48px;
+    width: 400px;
+    font-size: large;
+    outline-color: #2977c9;
+    padding: 10px;
+}
+
+.pTag {
+    width: 400px;
+}
+
+.text-container button {
+    width: 400px;
+    background-color: #2977c9;
+    color: white;
+    height: 56px;
+    border-radius: 28px;
+    line-height: normal;
+    font-weight: normal;
+    font-size: large;
+}
+
+.text-container button:hover {
+    background-color: #1d5188;
+}
+
+.hr hr,
+p {
+    font-size: large;
+    color: #6d7a80;
+}
+
+.sign {
+    width: 400px;
+}
+
+.text-container p {
+
+    text-align: center;
+}
+
+.image-container img {
+    width: 700px;
+    height: 560px;
+    margin-top: 50px;
+}
+
+a {
+    color: #0a66c4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
