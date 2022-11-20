@@ -5,8 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
   </head>
   <body>
-    Start your code here
+      <input style="margin:50px;" class="text1"  />
+       <p style="margin-left:50px;" id="wrote"></p>
   </body>
+    <script>
+
+       var x = document.getElementsByClassName("text1")[0];
+        x.addEventListener('change', myhello)
+
+       function myhello(){
+          
+          let y = document.getElementById("wrote");
+
+          y.innerHTML = x.value;
+        }    
+    </script>
 </html>
