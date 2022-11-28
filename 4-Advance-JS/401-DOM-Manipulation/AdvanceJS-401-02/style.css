@@ -1,0 +1,26 @@
+h2{
+    color:blue;
+}
+
+.main_container{
+    padding-top: 20px;
+    width:600px;
+    height:1000px;
+    border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+
+    width:100px;
+    height:40px;
+    border: 1px solid black;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
