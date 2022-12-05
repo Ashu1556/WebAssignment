@@ -4,9 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Image  Element added </title>
+    <style>
+      *{
+        margin: 0px;
+        box-sizing: border-box;
+      }
+      .container{
+        margin-top: 50px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .text1{
+         color: green;
+      }
+    </style>
   </head>
   <body>
-    Start your code here
+    <div class="container">
+      <h1 class="text1">Geekster</h1>
+      <p class="text">Click on the button add image element</p>
+      <button type="button" class="button" >Add on</button>
+      
+    </div>
+
+   
   </body>
+  <script>
+    document.getElementsByClassName("button")[0].addEventListener("click" , function myfunction(){
+      
+         let a = document.createElement("img");
+         a.setAttribute("src", "https://mechomotive.com/wp-content/uploads/2021/08/Geekster_logo_full-1024x264-1-1.png")
+         a.style.width = "250px";
+         a.style.height = "100px";
+         document.getElementsByClassName("container")[0].appendChild(a);
+         
+    })
+  </script>
 </html>
